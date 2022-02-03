@@ -19,6 +19,4 @@ composer require csdevs/flightdeck-env-validator
 $validator = new Validator(
     
 );
-
-
 ```
