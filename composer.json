@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Csdevs\\FlightdeckEnvValidator\\": "src/"
+            "CSDEVS\\FlightdeckEnvValidator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Csdevs\\FlightdeckEnvValidator\\Tests\\": "tests/"
+            "CSDEVS\\FlightdeckEnvValidator\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -21,7 +21,14 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0"
+        "php": "^7.3|^8.0",
+        "symfony/dotenv": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "vimeo/psalm": "^4.19"
+    },
+    "scripts": {
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
