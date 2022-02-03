@@ -1,0 +1,33 @@
+{
+    "name": "csdevs/flightdeck-env-validator",
+    "description": "A simple env validator.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Csdevs\\FlightdeckEnvValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Csdevs\\FlightdeckEnvValidator\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "role": "Author",
+            "name": "Ian Aguilar",
+            "email": "iana@cloudstaff.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
