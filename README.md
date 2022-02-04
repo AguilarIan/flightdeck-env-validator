@@ -15,8 +15,8 @@ composer require csdevs/flightdeck-env-validator
 ## Usage 
 
 ```php
-$validator = new Validator();
+//Should return a boolean value. 
 
-//Check if environment variable exists. 
-$validator->check();
+$validator = Validator::check();
+
 ```
